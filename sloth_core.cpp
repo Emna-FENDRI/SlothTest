@@ -164,7 +164,10 @@ void write_csv(int** obs , int size , double T ){
 
 }
 
-
+/**
+ * @brief test computation
+ * 
+ */
 void test(){
     
     int** vect =(int**)calloc(MOD, sizeof(int*));
@@ -198,10 +201,6 @@ void test(){
         mpz_init(r_Y_mpz);
 
         generate_prime(prime);
-
-        /*printf ("Prime:");
-        mpz_out_str(stdout,10,prime);
-        printf("\n");*/
 
         unsigned long se = s; 
         gmp_randinit_default(state);
