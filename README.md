@@ -1,5 +1,8 @@
 # SlothTest
+### Author 
+Emna FENDRI : emna.fendri@epfl.ch  
 
+## Description 
 ```Sloth``` is a slow-timed hash function where the resulting hash can be veriﬁed quickly.
 ```Sloth``` takes as input a seed and a large prime number, and is used for uncontestable random number generation, where the resulting random number is referred to as a ```beacon```.
 
