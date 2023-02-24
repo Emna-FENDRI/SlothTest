@@ -1,6 +1,4 @@
 # SlothTest
-### Author 
-Emna FENDRI : emna.fendri@epfl.ch  
 
 ## Description 
 ```Sloth``` is a slow-timed hash function where the resulting hash can be veriﬁed quickly.
@@ -8,3 +6,6 @@ Emna FENDRI : emna.fendri@epfl.ch
 
 This project consists in testing the existence of a correlation between the random value produced with a given seed and the random value produced with this same seed with one bit ﬂipped, with all other parameters unchanged.
 For this, we realise a Chi-square test of independence based on sample data.
+
+### Author 
+Emna FENDRI : emna.fendri@epfl.ch  
