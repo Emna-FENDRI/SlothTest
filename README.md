@@ -7,5 +7,14 @@
 This project consists in testing the existence of a correlation between the random value produced with a given seed and the random value produced with this same seed with one bit ﬂipped, with all other parameters unchanged.
 For this, we realise a Chi-square test of independence based on sample data.
 
+## Files
+```bash
+
+├── Code
+├   ├── Makefile
+├   └── sloth_core.cpp
+└── Final_report.pdf
+
+```
 ### Author 
 Emna FENDRI : emna.fendri@epfl.ch  
